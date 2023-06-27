@@ -12,6 +12,7 @@ font-family: 'Anton', sans-serif;
 
 body {
     background-color: #8B939C;
+    height: 100vh;
 }
 
 a {
@@ -47,9 +48,9 @@ li {
 #homePageText {
     font-family: 'Anton', sans-serif;
     font-size: 10rem;
-    color: #f5f5f5;
+    color: #ffffff;
     line-height: 96.4%;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     padding-left: 2.1875rem;
     padding-right: 2.5rem;
 }
@@ -59,10 +60,66 @@ li {
 
 #skillAndExp {
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: 600;
     font-size: 1rem;
     color: #000000;
     /* line-height: 73.4%; */
     padding-left: 2.5rem;
     padding-top: 1.5rem;
+}
+
+
+/* =========================HomePageCTA=================================== */
+
+#homePageCTA {
+    margin: 0rem 2.5rem 3.31rem 2.19rem;
+}
+
+.contactMeAndWorkButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* border: 1px solid black; */
+    margin-top: -1rem;
+}
+
+#contactMeButton {
+    padding: 1.5rem;
+    border-radius: 50px;
+    color: #F5F5F5;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: Raleway; */
+    font-weight: 600;
+    line-height: 78.9%;
+    letter-spacing: -0.0825rem;
+    background-color: #8B939C;
+    border: 1.5px solid black;
+}
+
+#contactMeButton:hover {
+    border-right: 6px solid black;
+    border-bottom: 6px solid black;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#workButton {
+    width: 7.375rem;
+    height: 7.375rem;
+    background-color: #8B939C;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: Raleway;
+    line-height: 78.9%;
+    letter-spacing: -0.0825rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineVector {
+    margin-top: 1rem;
 }
