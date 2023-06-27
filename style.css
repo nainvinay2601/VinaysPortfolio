@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* fonts 
+font-family: 'Raleway', sans-serif;
+font-family: 'Anton', sans-serif;
+ */
+
+body {
+    background-color: #8B939C;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navListLink {
+    color: black;
+}
+
+nav {
+    padding: 2.4rem;
+    padding-bottom: 0rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ====================== Homepage bold text styling========================== */
+
+#homePageText {
+    font-family: 'Anton', sans-serif;
+    font-size: 10rem;
+    color: #f5f5f5;
+    line-height: 96.4%;
+    margin-top: 3.5rem;
+    padding-left: 2.1875rem;
+    padding-right: 2.5rem;
+}
+
+
+/* ======================skill and experience===================== */
+
+#skillAndExp {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #000000;
+    /* line-height: 73.4%; */
+    padding-left: 2.5rem;
+    padding-top: 1.5rem;
+}
