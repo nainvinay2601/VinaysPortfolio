@@ -42,6 +42,56 @@ li {
     list-style: none;
 }
 
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    background-color: #8B939C;
+    /* padding: 10px; */
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    transition: visibility 0s linear 0.3s, opacity 0.3s;
+    height: 100vh;
+    width: 100vw;
+    /* overflow-y: auto; */
+    overflow-x: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    /* border: 1px solid black; */
+}
+
+
+/* .show {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+} */
+
+.dropdownMenu li {
+    font-size: 10rem;
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    border-bottom: 1.5px solid black;
+}
+
+.dropdownMenu a {
+    color: #ffffff;
+}
+
 
 /* ====================== Homepage bold text styling========================== */
 
@@ -95,12 +145,6 @@ li {
     letter-spacing: -0.0825rem;
     background-color: #8B939C;
     border: 1.5px solid black;
-}
-
-#contactMeButton:hover {
-    border-right: 6px solid black;
-    border-bottom: 6px solid black;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 #workButton {
@@ -204,7 +248,7 @@ li {
 .marquee-content {
     display: inline-block;
     white-space: nowrap;
-    animation: marquee 20s linear infinite;
+    animation: marquee 25s linear infinite;
     font-size: 6rem;
     font-family: 'Anton', sans-serif;
     line-height: 96.4%;
@@ -218,4 +262,24 @@ li {
     100% {
         transform: translateX(-100%);
     }
+}
+
+
+/* =============contact and social of work.html===================== */
+
+#contactAndSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0rem 2rem 2rem;
+}
+
+#socials {
+    display: flex;
+    width: 12.625rem;
+    height: 2rem;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 3.3125rem;
+    flex-shrink: 0;
 }
